@@ -7,6 +7,7 @@ An enterprise-grade, privacy-first B2B monetization ecosystem that processes com
 ## 🏗️ Core System Architecture
 
 The platform architecture is designed to enforce strict security boundaries, eliminating cross-origin dependency vulnerabilities and ensuring that premium developer identities and raw profile links remain unmasked until explicit ledger authorization rules are met.
+
 ### 1. Data Processing & Analytical Core
 * **Database Infrastructure:** Powered by a cloud PostgreSQL schema hosted on Supabase, handling relational data mapping for distinct user groups, developer assets, and recruiter transaction tokens.
 * **Local AI Parsing Engine:** Bypasses external cloud API rate boundaries by executing a dedicated 1.5-Billion parameter language model (`Qwen2.5-Coder-1.5B-Instruct`) natively within the notebook container memory. It automatically extracts technology tags, detects languages, and drafts structural summaries using deterministic sampling boundaries (`temperature=0.1`).
